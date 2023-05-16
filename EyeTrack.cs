@@ -14,6 +14,7 @@ public class EyeTrack : MonoBehaviour
     public List<Vector3> GazeDirection = new List<Vector3>();
     public List<bool> LeftEye = new List<bool>();
     public List<bool> RightEye = new List<bool>();
+    public Gameobject Item[];
     //List of all the AOIs in the scene example 30;
     public bool test = false;
 
