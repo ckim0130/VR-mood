@@ -14,6 +14,7 @@ public class EyeTrack : MonoBehaviour
     public List<Vector3> GazeDirection = new List<Vector3>();
     public List<bool> LeftEye = new List<bool>();
     public List<bool> RightEye = new List<bool>();
+    //List of all the AOIs in the scene example 30;
     public bool test = false;
 
     public void getdata()
@@ -45,7 +46,8 @@ public class EyeTrack : MonoBehaviour
 
             var eyesDirection = eyeTrackingLocal.GazeRay.Direction;
             GazeDirection.Add(eyesDirection);
-
+            
+            //for loop call each gameobject, go to their track at gaze function, and check if track at gaze is true, if they are not looking at anything imp, put X.
             //var result = time.Concat(origin).Concat(direction).Concat(LeftEye).Concat(RightEye).Concat(GazeDirection);
         }
     }
