@@ -46,3 +46,6 @@ public class MyTool : MonoBehaviour
 //         write all the variables. Reference the index number. 
 //         call another function that will write the getresult
 //    
+
+
+Gameobject.Find("Origin").getcomponent...
