@@ -5,6 +5,7 @@ using UnityEditor;
 
 public class MyTool : MonoBehaviour
 {
+    //Remove
     public void checker() // checks the length of the study. 
     {
         for (int i = 0; i < this.GetComponent<EyeTrack>().time.Count; i++) // go until the end of time
