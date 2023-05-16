@@ -12,7 +12,7 @@ public class MyTool : MonoBehaviour
         }
 
     }
-
+// Not necessary
     //public void getresult()
     //{
     //    //[MenuItem("My Tools/Aded to Report %F1")]
