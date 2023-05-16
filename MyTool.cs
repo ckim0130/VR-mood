@@ -31,6 +31,7 @@ public class MyTool : MonoBehaviour
             time = GetComponent<EyeTrack>().time.ToString()
             //change to string?
             );
+        //Remove this because specific to editor 
         EditorApplication.Beep();
         Debug.Log("Report updated successfully!");
     }
